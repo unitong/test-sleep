@@ -4,7 +4,7 @@ resource "null_resource" "example" {
   }
 
   provisioner "local-exec" {
-    command = "sleep 6000 && echo Null Resource is being created"
+    command = "sleep 610 && echo Null Resource is being created"
   }
  
   provisioner "local-exec" {
